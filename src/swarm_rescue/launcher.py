@@ -9,14 +9,14 @@ from maps.map_intermediate_02 import MyMapIntermediate02
 from maps.map_complete_01 import MyMapComplete01
 from maps.map_complete_02 import MyMapComplete02
 
-from solutions.my_drone_random import MyDroneRandom
+from solutions.DroneSimple import DroneSimple
 
 
-class MyMap(MyMapIntermediate02):
+class MyMap(MyMapIntermediate01):
     pass
 
 
-class MyDrone(MyDroneRandom):
+class MyDrone(DroneSimple):
     pass
 
 

@@ -1,6 +1,6 @@
 PyYAML
 pymunk>=6.0.0
-numpy
+numpy==1.23.4
 scikit-image
 Pillow
 pytest
@@ -17,3 +17,7 @@ pathlib2
 gym
 arcade
 tripy
+
+
+# Team requirements
+python-statemachine
